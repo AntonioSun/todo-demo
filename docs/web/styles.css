@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    clear: both;
+    list-style-type: none;
+    padding: 5px 5px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px 1px 0 1px;
+}
+
+li:last-child {
+    border-width: 1px 1px 1px 1px;
+}
+
+/* Custom styles for normal list items */
+li.cmt {
+  list-style-type: disc; /* Change the list item marker to a bullet point */
+  padding: 0; /* Reset padding to remove extra space */
+  border: none; /* Reset border to remove the table-like borders */
+  margin-left:15px;
+  padding-left: 5px;
+  font-style: italic;
+}
+
+.todoapp {
+    width: 550px;
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    width: 500px;
+}
+
+label > input {
+    margin-right: 15px;
+}
+
+.new-todo {
+    width: 505px;
+    float: right;
+}
+
+.delete {
+    float: right;
+    color: red;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.selection {
+    text-align: center;
+}
+
+.selection button {
+    border: none;
+    background-color: transparent;
+    margin: 0 5px;
+    padding: 2px 10px;
+}
+
+.selection button.active {
+    border: 1px grey solid;
+}
