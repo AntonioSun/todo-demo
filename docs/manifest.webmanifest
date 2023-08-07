@@ -9,18 +9,18 @@
       "sizes": "any"
     },
     {
-      "src": "/todo-demo/web/icon-512.png",
+      "src": "/todo-demo0/web/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/todo-demo/web/icon-192.png",
+      "src": "/todo-demo0/web/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
   ],
-  "scope": "/todo-demo/",
-  "start_url": "/todo-demo/",
+  "scope": "/todo-demo0/",
+  "start_url": "/todo-demo0/",
   "background_color": "#2d2c2c",
   "theme_color": "#2d2c2c",
   "display": "standalone"

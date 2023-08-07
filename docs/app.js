@@ -5,7 +5,7 @@ var goappNav = function () {};
 var goappOnUpdate = function () {};
 var goappOnAppInstallChange = function () {};
 
-const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"/todo-demo","GOAPP_STATIC_RESOURCES_URL":"/todo-demo","GOAPP_VERSION":"b3817922720c8ba7fbdfdaecc6bb5e3aa87f2247"};
+const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"/todo-demo0","GOAPP_STATIC_RESOURCES_URL":"/todo-demo0","GOAPP_VERSION":"f57c2450715b9db6921de7b90ddd29cfa8cab1c6"};
 const goappLoadingLabel = "{progress}%";
 const goappWasmContentLengthHeader = "";
 
@@ -24,7 +24,7 @@ async function goappInitServiceWorker() {
   if ("serviceWorker" in navigator) {
     try {
       const registration = await navigator.serviceWorker.register(
-        "/todo-demo/app-worker.js"
+        "/todo-demo0/app-worker.js"
       );
 
       goappServiceWorkerRegistration = registration;
@@ -216,7 +216,7 @@ async function goappInitWebAssembly() {
 
     const go = new Go();
     const wasm = await instantiateStreaming(
-      fetchWithProgress("/todo-demo/web/app.wasm", showProgress),
+      fetchWithProgress("/todo-demo0/web/app.wasm", showProgress),
       go.importObject
     );
 

@@ -1,8 +1,8 @@
-const cacheName = "app-" + "b3817922720c8ba7fbdfdaecc6bb5e3aa87f2247";
-const resourcesToCache = ["/todo-demo","/todo-demo/app.css","/todo-demo/app.js","/todo-demo/manifest.webmanifest","/todo-demo/wasm_exec.js","/todo-demo/web/app.wasm","/todo-demo/web/icon-192.png","/todo-demo/web/icon-512.png","/todo-demo/web/styles.css"];
+const cacheName = "app-" + "f57c2450715b9db6921de7b90ddd29cfa8cab1c6";
+const resourcesToCache = ["/todo-demo0","/todo-demo0/app.css","/todo-demo0/app.js","/todo-demo0/manifest.webmanifest","/todo-demo0/wasm_exec.js","/todo-demo0/web/app.wasm","/todo-demo0/web/icon-192.png","/todo-demo0/web/icon-512.png","/todo-demo0/web/styles.css"];
 
 self.addEventListener("install", (event) => {
-  console.log("installing app worker b3817922720c8ba7fbdfdaecc6bb5e3aa87f2247");
+  console.log("installing app worker f57c2450715b9db6921de7b90ddd29cfa8cab1c6");
 
   event.waitUntil(
     caches
@@ -28,7 +28,7 @@ self.addEventListener("activate", (event) => {
       );
     })
   );
-  console.log("app worker b3817922720c8ba7fbdfdaecc6bb5e3aa87f2247 is activated");
+  console.log("app worker f57c2450715b9db6921de7b90ddd29cfa8cab1c6 is activated");
 });
 
 self.addEventListener("fetch", (event) => {
